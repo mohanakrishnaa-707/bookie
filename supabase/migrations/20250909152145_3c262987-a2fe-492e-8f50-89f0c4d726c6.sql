@@ -1,0 +1,20 @@
+-- Add all new department enum values (they need to be committed before being used)
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'automobile_engineering';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'civil_engineering';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'mechanical_engineering';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'electrical_and_electronics_engineering';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'electronics_and_communication_engineering';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'vlsi';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'advanced_communication_technology';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'artificial_intelligence_and_data_science';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'computer_science_and_engineering';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'artificial_intelligence_and_machine_learning';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'cse_cybersecurity';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'information_technology';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'computer_application_mca';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'science_and_humanities';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'me_applied_electronics';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'me_cad_cam';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'me_computer_science_and_engineer';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'me_communication_systems';
+ALTER TYPE department_name ADD VALUE IF NOT EXISTS 'me_structural_engineer';
